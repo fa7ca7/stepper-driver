@@ -1,0 +1,14 @@
+[package]
+name = "stepper-driver"
+description = "A49xx and DRV88xx stepper motor driver."
+categories = ["embedded", "no-std"]
+keywords = ["cortex-m", "driver", "stepper", "motor", "embedded-hal"]
+repository = "https://github.com/dethoter/stepper-driver"
+readme = "README.md"
+
+license = "MIT OR Apache-2.0"
+authors = ["Evgen Druzhynin <evgen.druzhynin@gmail.com>"]
+version = "0.1.0"
+
+[dependencies]
+embedded-hal = "0.1.2"
